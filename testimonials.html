@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>КапиталГид</title>
+        <meta content="" name="description" />
+        <meta content="" name="keywords" />
+
+        <!-- Favicons -->
+        <link href="assets/img/favicon.png" rel="icon" />
+        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Vendor CSS Files -->
+        <link
+            href="assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link
+            href="assets/vendor/glightbox/css/glightbox.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/swiper/swiper-bundle.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Main CSS File -->
+        <link href="assets/css/main.css" rel="stylesheet" />
+    </head>
+
+    <body class="index-page">
+        <header id="header" class="header d-flex align-items-center sticky-top">
+            <div
+                class="container-fluid container-xl position-relative d-flex align-items-center"
+            >
+                <a
+                    href="index.html"
+                    class="logo d-flex align-items-center me-auto"
+                >
+                    <h1 class="sitename">КапиталГид</h1>
+                </a>
+
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Главная<br /></a>
+                        </li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li>
+                            <a href="testimonials.html" class="active"
+                                >Отзывы</a
+                            >
+                        </li>
+                        <li>
+                            <a href="services.html">Услуги</a>
+                        </li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <!-- Hero Section -->
+            <section id="hero" class="hero section">
+                <img src="assets/img/hero-bg-1.jpg" alt="" data-aos="fade-in" />
+
+                <div class="container">
+                    <h2 data-aos="fade-up" data-aos-delay="100">
+                        Что говорят о нас наши клиенты
+                    </h2>
+                    <p data-aos="fade-up" data-aos-delay="200">
+                        Наша компания гордится тем, что предоставляет
+                        первоклассные инвестиционные консультационные услуги.
+                        Благодаря сотрудничеству с различными известными
+                        экспертами в области инвестиций и нашему широкому опыту
+                        в предоставлении и содействии инвестиционным услугам, мы
+                        завоевали доверие и удовлетворение множества клиентов.
+                        Вот некоторые из их отзывов.
+                    </p>
+                </div>
+            </section>
+            <!-- /Hero Section -->
+
+            <!-- Page Title -->
+            <div class="page-title" data-aos="fade">
+                <div class="heading">
+                    <div class="container">
+                        <div
+                            class="row d-flex justify-content-center text-center"
+                        >
+                            <div class="col-lg-8">
+                                <h1>Наши результаты говорят сами за себя</h1>
+                                <p class="mb-0">
+                                    От бесплатных консультационных услуг до
+                                    помощи в инвестиционных торгах и покупках –
+                                    мы стремимся находить лучшие решения для
+                                    наших клиентов. Наши эксперты тесно
+                                    сотрудничают с ведущими инвестиционными
+                                    консультантами, чтобы гарантировать, что
+                                    наши клиенты всегда получают лучшие
+                                    инвестиционные рекомендации.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="breadcrumbs">
+                    <div class="container">
+                        <ol>
+                            <li><a href="index.html">Главная</a></li>
+                            <li class="current">Инвестиции</li>
+                        </ol>
+                    </div>
+                </nav>
+            </div>
+            <!-- End Page Title -->
+
+            <!-- Testimonials Section -->
+            <section id="testimonials" class="testimonials section">
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Отзывы</h2>
+                    <p>Что говорят клиенты</p>
+                </div>
+                <!-- End Section Title -->
+
+                <div class="container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper">
+                        <script type="application/json" class="swiper-config">
+                            {
+                                "loop": true,
+                                "speed": 600,
+                                "autoplay": {
+                                    "delay": 5000
+                                },
+                                "slidesPerView": "auto",
+                                "pagination": {
+                                    "el": ".swiper-pagination",
+                                    "type": "bullets",
+                                    "clickable": true
+                                },
+                                "breakpoints": {
+                                    "320": {
+                                        "slidesPerView": 1,
+                                        "spaceBetween": 40
+                                    },
+                                    "1200": {
+                                        "slidesPerView": 2,
+                                        "spaceBetween": 20
+                                    }
+                                }
+                            }
+                        </script>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="assets/img/testimonials/testimonials-1.jpg"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Ханс М.</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p>
+                                            <i
+                                                class="bi bi-quote quote-icon-left"
+                                            ></i>
+                                            <span
+                                                >Консультации и поддержка,
+                                                предоставленные этой компанией,
+                                                были отличными. Они помогли мне
+                                                не только в предоставлении
+                                                инвестиционных услуг, но и в
+                                                участии в инвестиционных торгах.
+                                                Особенно полезным было
+                                                сотрудничество с экспертами в
+                                                области инвестиций.</span
+                                            >
+                                            <i
+                                                class="bi bi-quote quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="assets/img/testimonials/testimonials-2.jpg"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Мария Х.</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p>
+                                            <i
+                                                class="bi bi-quote quote-icon-left"
+                                            ></i>
+                                            <span
+                                                >Я была впечатлена
+                                                профессионализмом и
+                                                эффективностью этой компании. Их
+                                                помощь в инвестиционных вопросах
+                                                и тесное сотрудничество с
+                                                ведущими консультантами по
+                                                инвестициям значительно помогли
+                                                мне. Бесплатные инвестиционные
+                                                консультации - это огромное
+                                                преимущество для клиентов.</span
+                                            >
+                                            <i
+                                                class="bi bi-quote quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="assets/img/testimonials/testimonials-3.jpg"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Лаура С.</h3>
+                                        <h4>Владелец бизнеса</h4>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p>
+                                            <i
+                                                class="bi bi-quote quote-icon-left"
+                                            ></i>
+                                            <span
+                                                >Эта компания предоставляет
+                                                комплексное обслуживание и
+                                                отличные инвестиционные
+                                                консультации. Благодаря
+                                                сотрудничеству с ведущими
+                                                консультантами по инвестициям я
+                                                чувствовала себя в надежных
+                                                руках. Бесплатные инвестиционные
+                                                услуги помогли мне решить многие
+                                                вопросы.</span
+                                            >
+                                            <i
+                                                class="bi bi-quote quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="assets/img/testimonials/testimonials-4.jpg"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Питер К.</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p>
+                                            <i
+                                                class="bi bi-quote quote-icon-left"
+                                            ></i>
+                                            <span
+                                                >Я очень доволен юридической
+                                                поддержкой, которую я получил от
+                                                этой компании. Они помогли мне с
+                                                участием в инвестиционных торгах
+                                                и покупке, тесно сотрудничая с
+                                                ведущими экспертами в области
+                                                инвестиций. Их сервис
+                                                действительно
+                                                первоклассный.</span
+                                            >
+                                            <i
+                                                class="bi bi-quote quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="assets/img/testimonials/testimonials-5.jpg"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Бен Т.</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i
+                                            ><i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p>
+                                            <i
+                                                class="bi bi-quote quote-icon-left"
+                                            ></i>
+                                            <span
+                                                >Юристы этой компании
+                                                чрезвычайно компетентны и
+                                                преданы своему делу. Они помогли
+                                                мне не только с инвестиционными
+                                                вопросами, но и с
+                                                предоставлением необходимой
+                                                консультационной помощи. Их
+                                                способность предоставлять и
+                                                облегчать инвестиционные услуги
+                                                заслуживает высокой оценки. Я
+                                                могу только рекомендовать их
+                                                услуги.</span
+                                            >
+                                            <i
+                                                class="bi bi-quote quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Testimonials Section -->
+        </main>
+
+        <footer id="footer" class="footer position-relative">
+            <div class="container footer-top">
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-12 footer-about">
+                        <a
+                            href="index.html"
+                            class="logo d-flex align-items-center"
+                        >
+                            <span class="sitename">КапиталГид </span>
+                        </a>
+                        <p>
+                            Оставайтесь с нами на связи для поддержки и
+                            консультаций по инвестиционным вопросам. Наша
+                            команда всегда готова помочь вам в достижении ваших
+                            инвестиционных целей.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 footer-about">
+                        <a
+                            href="index.html"
+                            class="logo d-flex align-items-center"
+                        >
+                            <span class="sitename">Контакты</span>
+                        </a>
+                        <div class="footer-contact pt-3">
+                            <p>Landenbergstrasse 34,</p>
+                            <p>6002 Luzern</p>
+                            <p class="mt-3">
+                                <strong>Телефон:</strong>
+                                <span>+41413681212</span>
+                            </p>
+                            <p>
+                                <strong>E-Mail:</strong>
+                                <span>capita_guide@gmail.com</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 footer-links">
+                        <h4>Полезные ссылки</h4>
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="about.html">О нас</a></li>
+                            <li>
+                                <a href="privacy-policy.html"
+                                    >Условия использования</a
+                                >
+                            </li>
+                            <li>
+                                <a href="terms-of-use.html"
+                                    >Политика конфиденциальности</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 footer-about">
+                        <a
+                            href="index.html"
+                            class="logo d-flex align-items-center"
+                        >
+                            <span class="sitename">Офис Франция</span>
+                        </a>
+                        <div class="footer-contact pt-3">
+                            <p>77 Bd Saint-Jacques,</p>
+                            <p>75014 Paris, Франция</p>
+                            <p class="mt-3">
+                                <strong>Телефон:</strong>
+                                <span>+33147209909</span>
+                            </p>
+                            <p>
+                                <strong>E-Mail:</strong>
+                                <span>capita_guide@gmail.com</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 footer-about">
+                        <a
+                            href="index.html"
+                            class="logo d-flex align-items-center"
+                        >
+                            <span class="sitename">Офис Польша</span>
+                        </a>
+                        <div class="footer-contact pt-3">
+                            <p>Piotrkowska 242/250, а</p>
+                            <p>90-360 Łódź, Poland</p>
+                            <p class="mt-3">
+                                <strong>Телефон:</strong>
+                                <span>+48571295717</span>
+                            </p>
+                            <p>
+                                <strong>E-Mail:</strong>
+                                <span>capita_guide@gmail.com</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Кнопка прокрутки вверх -->
+        <a
+            href="#"
+            id="scroll-top"
+            class="scroll-top d-flex align-items-center justify-content-center"
+            ><i class="bi bi-arrow-up-short"></i
+        ></a>
+
+        <!-- Прелоадер -->
+        <div id="preloader"></div>
+
+        <!-- Баннер с куки -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookie-файлы для обеспечения более
+                    удобного и релевантного просмотра.
+                    <a href="privacy-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Main JS File -->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/cookiebanner.js"></script>
+    </body>
+</html>
